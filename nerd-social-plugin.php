@@ -47,7 +47,7 @@ add_action( 'admin_menu', 'nd_social_share_plugin' );
 
 // Adding Submenu to settings
 function nd_social_share_plugin() {
-	add_options_page( 'Don Caprio\'s Social Share Plugin', 'Don Caprio\'s Social Share',
+	add_options_page( 'Nerd\'s Social Share Plugin', 'Nerd\'s Social Share',
 'manage_options', 'nerd-social-plugin-nd', 'nerd_social_plugin_nd' );
 }
 

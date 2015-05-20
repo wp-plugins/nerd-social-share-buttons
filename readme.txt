@@ -22,7 +22,7 @@ You can also display using this shortcode in single posts and pages:
 
 Please note: That The Plugin do not show stats or share counter. The essence of the whole thing is to keep it very simplified.
 
-The only button that requires a little snippet of JS to work is the Pinterest button but this does not slow down your site in anyway. A demo of the plugin can be seen here: http://shoutershub.ng/
+The only button that requires a little snippet of JS to work is the Pinterest button but this does not slow down your site in anyway. A demo of the plugin can be seen here: http://shoutershub.com
 
 == Installation ==
 1. Upload 'plugin-name.php' to the '/wp-content/plugins/' directory
