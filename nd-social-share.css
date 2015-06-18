@@ -44,8 +44,8 @@ html{-webkit-font-smoothing:antialiased;}
 
 body { background:#e0e0e0; color:#454545; }
 
-#menu-holder{width:600px;
- margin: 100px auto;}
+#menu-holder{width:100%;
+ margin: 60px fixed;}
  
 .set-1 ul li{display:inline-block;margin-left:20px;margin-top:20px;}
 .set-2{margin-top:50px;}

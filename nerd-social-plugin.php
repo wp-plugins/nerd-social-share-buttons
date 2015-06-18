@@ -2,7 +2,7 @@
 /*
 Plugin Name: Nerd Social Share Buttons
 Plugin URI: http://shoutershub.com
-Description: A set of very simple social sharing buttons - featuring important social media in your network
+Description: A set of very simple light load social sharing buttons - featuring important social media in your network
 Author: Neon Emmanuel
 Version: 1.0
 Author URI: http://shoutershub.com
@@ -29,7 +29,7 @@ $label = $option['label'];
 // social share code obsolete
 $plugin_code = '<div id="menu-holder">
 
-<div class="set-2">
+<div class="set-1">
 <ul>
 <li><a href="http://twitter.com/home?status='. the_title('', '', FALSE) .': '. get_permalink() .'" title="Share this post on Twitter!" target="_blank" rel="nofollow" class="twitter-big">Twitter</a></li>
 <li><a href="http://www.facebook.com/sharer.php?u='. get_permalink() .'&amp;t='. the_title('', '', FALSE) .'" rel="nofollow" title="Share this post on Facebook!" onclick="window.open(this.href); return false;" class="facebook-big">Facebook</a></li>
@@ -47,7 +47,7 @@ add_action( 'admin_menu', 'nd_social_share_plugin' );
 
 // Adding Submenu to settings
 function nd_social_share_plugin() {
-	add_options_page( 'Nerd\'s Social Share Plugin', 'Nerd\'s Social Share',
+	add_options_page( 'Don Caprio\'s Social Share Plugin', 'Don Caprio\'s Social Share',
 'manage_options', 'nerd-social-plugin-nd', 'nerd_social_plugin_nd' );
 }
 
@@ -165,7 +165,7 @@ do it like this: </p></td>
 	$content.= '<div class="myclass" align="center">
 	<div class="social"><div class="thetext">'. $label . '<div id="menu-holder">
 
-<div class="set-2">
+<div class="set-1">
 <ul>
 <li><a href="http://twitter.com/home?status='. the_title('', '', FALSE) .': '. get_permalink() .'" title="Share this post on Twitter!" target="_blank" rel="nofollow" class="twitter-big">Twitter</a></li>
 <li><a href="http://www.facebook.com/sharer.php?u='. get_permalink() .'&amp;t='. the_title('', '', FALSE) .'" rel="nofollow" title="Share this post on Facebook!" onclick="window.open(this.href); return false;" class="facebook-big">Facebook</a></li>
@@ -186,7 +186,7 @@ if ($displaypage == 'ok') {
 	<div class="social"><div class="thetext">'. $label  . '</div>
        <div id="menu-holder">
 
-<div class="set-2">
+<div class="set-1">
 <ul>
 <li><a href="http://twitter.com/home?status='. the_title('', '', FALSE) .': '. get_permalink() .'" title="Share this post on Twitter!" target="_blank" rel="nofollow" class="twitter-big">Twitter</a></li>
 <li><a href="http://www.facebook.com/sharer.php?u='. get_permalink() .'&amp;t='. the_title('', '', FALSE) .'" rel="nofollow" title="Share this post on Facebook!" onclick="window.open(this.href); return false;" class="facebook-big">Facebook</a></li>
@@ -220,7 +220,7 @@ if ($displaypage == 'ok') {
 	echo '<!--Facebook-->
  <div id="menu-holder">
 
-<div class="set-2">
+<div class="set-1">
 <ul>
 <li><a href="http://twitter.com/home?status='. the_title('', '', FALSE) .': '. get_permalink() .'" title="Share this post on Twitter!" target="_blank" rel="nofollow" class="twitter-big">Twitter</a></li>
 <li><a href="http://www.facebook.com/sharer.php?u='. get_permalink() .'&amp;t='. the_title('', '', FALSE) .'" rel="nofollow" title="Share this post on Facebook!" onclick="window.open(this.href); return false;" class="facebook-big">Facebook</a></li>
@@ -246,7 +246,7 @@ if ($displaypage == 'ok') {
 	<div class="social"><div class="thetext">'. $read_more . '</div>
 	  <div id="menu-holder">
 
-<div class="set-2">
+<div class="set-1">
 <ul>
 <li><a href="http://twitter.com/home?status='. the_title('', '', FALSE) .': '. get_permalink() .'" title="Share this post on Twitter!" target="_blank" rel="nofollow" class="twitter-big">Twitter</a></li>
 <li><a href="http://www.facebook.com/sharer.php?u='. get_permalink() .'&amp;t='. the_title('', '', FALSE) .'" rel="nofollow" title="Share this post on Facebook!" onclick="window.open(this.href); return false;" class="facebook-big">Facebook</a></li>
