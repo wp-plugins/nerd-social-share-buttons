@@ -7,7 +7,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A set of very simple social sharing buttons- important in your social media network.
+A set of very simple light wieght social sharing buttons- important in your social media network.
 
 == Description ==
 Simple and fast to load social share buttons , fancy and bold enough to get a share from your visitors, it's written in PHP, HTML and CSS. 
@@ -57,6 +57,6 @@ Yes, you can use any custom text. You can set that through the settings page. If
 2. Plugin backend settings
 
 == Changelog ==
-Version 1.0
+Version 2.0
 
 Initial release.

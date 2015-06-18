@@ -2,9 +2,9 @@
 /*
 Plugin Name: Nerd Social Share Buttons
 Plugin URI: http://shoutershub.com
-Description: A set of very simple light load social sharing buttons - featuring important social media in your network
+Description: A set of very simple light wieght social sharing buttons- important in your social media network.
 Author: Neon Emmanuel
-Version: 1.0
+Version: 2.0
 Author URI: http://shoutershub.com
 */
 
