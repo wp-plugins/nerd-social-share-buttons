@@ -1,8 +1,8 @@
 === nerd Social Share Buttons ===
 Contributors: Neon Emmanuel
-Tags: facebook, twitter, google+, social, share
+Tags: facebook, twitter, google+, social, share, share buttons, social share, sharing , social media, social share buttons,simple share buttons
 Requires at least: 3.0.1
-Tested up to: 3.8.2
+Tested up to: 4.2.2
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -10,9 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 A set of very simple light wieght social sharing buttons- important in your social media network.
 
 == Description ==
-Simple and fast to load social share buttons , fancy and bold enough to get a share from your visitors, it's written in PHP, HTML and CSS. 
-
-There's an option to show the buttons on posts and pages. You can also put the buttons anywhere in your template using this template tag:
+A Set of Very Simple neat and auto resposive Social share buttons with no social stat counter - display just a few neatly arranged social share buttons your blog/website really needs, and neglecting few uncommon social media .
 
 `<?php nd_social_share_tag(); ?>`
 
@@ -20,9 +18,8 @@ You can also display using this shortcode in single posts and pages:
 
 `[nd-social]`
 
-Please note that these buttons do not show share counts. The essence of the whole thing is to keep it very simplified.
-
-The only button that requires a little snippet of JS to work is the Pinterest button but this does not slow down your site in anyway. A demo of the plugin can be seen here: http://geek.ng/
+Please note that these buttons do not show share counts.
+see Demo at : http://shoutershub.com/
 
 == Installation ==
 1. Upload 'plugin-name.php' to the '/wp-content/plugins/' directory
@@ -34,7 +31,7 @@ You can also upload directly from Wordpress dashboard > Plugins > Add New > Uplo
 
 = How do I show share counts? =
 
-This plugin isn't meant to do that. The essence of the whole thing is to keep it simplified? 
+This plugin isn't meant to do that. 
 
 = How do I show the buttons in certain areas of my websites not available through the plugin settings... for example, above posts? =
 
@@ -57,6 +54,6 @@ Yes, you can use any custom text. You can set that through the settings page. If
 2. Plugin backend settings
 
 == Changelog ==
-Version 2.0
+Version 2.0.1
 
 Initial release.
